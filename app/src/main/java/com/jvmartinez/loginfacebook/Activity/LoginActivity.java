@@ -1,4 +1,4 @@
-package com.jvmartinez.loginfacebook;
+package com.jvmartinez.loginfacebook.Activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +11,7 @@ import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
+import com.jvmartinez.loginfacebook.R;
 
 public class LoginActivity extends AppCompatActivity {
     private LoginButton btnLoginFacebook;
